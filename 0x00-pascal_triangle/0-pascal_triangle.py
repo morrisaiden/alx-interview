@@ -6,7 +6,8 @@ Pascal triangle
 
 def pascal_triangle(n):
     """
-    function generates and returns the first n rows of Pascal's Triangle as a list of lists, 
+    function generates and returns the first n rows of
+    Pascal's Triangle as a list of lists,
     where each inner list represents a row in the triangle.
     """
     k = []
