@@ -1,0 +1,1 @@
+## UTF-8 (Unicode Transformation Format - 8-bit) is a character encoding standard that encodes all possible characters (code points) in the Unicode character set. It is widely used because of its efficient and flexible encoding method.
