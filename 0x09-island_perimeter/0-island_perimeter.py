@@ -3,6 +3,7 @@
 perimeter of an island
 """
 
+
 def island_perimeter(grid):
     """Returns the perimeter of the island described in the grid."""
     perimeter = 0
@@ -19,6 +20,5 @@ def island_perimeter(grid):
 
                 if i < rows - 1 and grid[i + 1][j] == 1:
                     perimeter -= 2
-
 
     return perimeter
