@@ -1,0 +1,1 @@
+A prime game typically involves creating a game where players take turns picking prime numbers from a list, and the player who can't pick a prime number loses.
