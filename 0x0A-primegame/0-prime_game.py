@@ -1,6 +1,24 @@
 #!/usr/bin/python3
+"""
+prime numbers, game theory, and algorithm optimization
+"""
+
 
 def isWinner(x, nums):
+    """
+    Determine the winner of the game between Maria and Ben based on the given
+    rounds of prime picking and removing multiples.
+
+    Args:
+        x (int): The number of rounds to play.
+        nums (list): A list where each element is n for each round,
+        representing
+                     the upper bound of numbers from 1 to n to play the game.
+
+    Returns:
+        str: "Maria" if Maria wins the most rounds, "Ben" if Ben wins the most
+             rounds, or None if there is a tie.
+    """
     if not nums or x < 1:
         return None
 
